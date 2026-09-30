@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ghizlene Salah</title>
+    <script>
+      // Technique "spa-github-pages" : redirige toute URL profonde
+      // (ex: /project/DiaMini) vers index.html en conservant le
+      // chemin dans le paramètre ?p= , que index.html restaure ensuite.
+      var base = '/portfolio'
+      var path = location.pathname.slice(base.length) + location.search + location.hash
+      location.replace(base + '/?p=' + encodeURIComponent(path))
+    </script>
+  </head>
+  <body></body>
+</html>

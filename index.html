@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ghizlene Salah — Développeuse informatique & créatrice digitale</title>
+    <meta
+      name="description"
+      content="Portfolio de Ghizlene Salah, développeuse informatique et créatrice digitale basée à Oran, Algérie. Développement web, applications mobiles, UI/UX et design graphique."
+    />
+    <meta property="og:title" content="Ghizlene Salah — Développeuse informatique & créatrice digitale" />
+    <meta property="og:description" content="Une sélection de projets à la croisée du développement, du design et de la créativité." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,560;1,9..144,450&family=Inter:wght@400;500;600&family=Caveat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script>
+      // Restaure le vrai chemin si on arrive ici via la redirection de 404.html
+      ;(function () {
+        var params = new URLSearchParams(location.search)
+        var p = params.get('p')
+        if (p) {
+          var base = '/portfolio'
+          history.replaceState(null, '', base + p)
+        }
+      })()
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
