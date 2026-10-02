@@ -11,9 +11,7 @@ export function Footer() {
         </div>
         <div className="footer__links">
           <a href="mailto:ghizlenesalah2002@gmail.com">Email</a>
-          <a href="https://github.com/ghizslh" target="_blank" rel="noreferrer">
-            GitHub
-          </a>
+
           <a href="https://www.instagram.com/ateliercoursmaths/" target="_blank" rel="noreferrer">
             Instagram
           </a>

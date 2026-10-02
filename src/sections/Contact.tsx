@@ -35,14 +35,6 @@ export function Contact() {
             </li>
             <li>
               <div>
-                <span className="contact__label">{t.contact.github}</span>
-                <a href="https://github.com/ghizslh" target="_blank" rel="noreferrer">
-                  github.com/ghizslh
-                </a>
-              </div>
-            </li>
-            <li>
-              <div>
                 <span className="contact__label">{t.contact.instagram}</span>
                 <a href="https://www.instagram.com/ateliercoursmaths/" target="_blank" rel="noreferrer">
                   @ateliercoursmaths

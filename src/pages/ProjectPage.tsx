@@ -28,9 +28,7 @@ export function ProjectPage() {
   if (!project) return <Navigate to="/" replace />
 
   const linkLabel =
-    project.linkType === 'github'
-      ? t.projectPage.viewGithub
-      : project.linkType === 'instagram'
+ project.linkType === 'instagram'
         ? t.projectPage.viewInstagram
         : t.projectPage.visitSite
 

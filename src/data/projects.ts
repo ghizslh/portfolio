@@ -17,7 +17,7 @@ export interface Project {
   images: string[]
   link?: string
   linkLabel?: { fr: string; en: string }
-  linkType?: 'site' | 'github' | 'instagram'
+  linkType?: 'site' | 'instagram'
 }
 
 export const projects: Project[] = [

@@ -39,7 +39,6 @@ export const translations: Record<Lang, TranslationShape> = {
     projectPage: {
       technologies: 'Technologies',
       visitSite: 'Voir le site',
-      viewGithub: 'Voir sur GitHub',
       viewInstagram: 'Instagram',
       noLink: 'Lien à venir',
     },
@@ -55,7 +54,6 @@ export const translations: Record<Lang, TranslationShape> = {
       cta: 'Me contacter',
       email: 'Email',
       phone: 'Téléphone',
-      github: 'GitHub',
       instagram: 'Instagram',
       location: 'Localisation',
     },
@@ -102,7 +100,6 @@ export const translations: Record<Lang, TranslationShape> = {
     projectPage: {
       technologies: 'Technologies',
       visitSite: 'Visit site',
-      viewGithub: 'View on GitHub',
       viewInstagram: 'Instagram',
       noLink: 'Link coming soon',
     },
@@ -118,7 +115,6 @@ export const translations: Record<Lang, TranslationShape> = {
       cta: 'Get in touch',
       email: 'Email',
       phone: 'Phone',
-      github: 'GitHub',
       instagram: 'Instagram',
       location: 'Location',
     },
@@ -165,7 +161,6 @@ export interface TranslationShape {
   projectPage: {
     technologies: string
     visitSite: string
-    viewGithub: string
     viewInstagram: string
     noLink: string
   }
@@ -181,7 +176,7 @@ export interface TranslationShape {
     cta: string
     email: string
     phone: string
-    github: string
+
     instagram: string
     location: string
   }
